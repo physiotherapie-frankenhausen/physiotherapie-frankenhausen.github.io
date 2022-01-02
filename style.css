@@ -1,0 +1,219 @@
+body {
+		background-color: #FFFFFF;
+}
+
+table, tr, td, div, ul, li, p {
+		background-color: transparent;
+}
+
+p, div, span, td, li {
+		line-height:130%;
+}
+
+ul {
+		padding-left: 16px;
+}
+
+/*  Formatunterklassen */
+
+p, div, span, p.normal { 
+		font-size:10pt;
+		color:black;
+		font-family:Century Gothic,Helvetica,Arial; 
+		 }
+		 
+
+
+p.gross { 
+		font-size:11pt;
+		color:black;
+		font-family:Century Gothic,Helvetica,Arial; 
+		font-weight:bold;  
+		}
+		
+
+
+p.klein { 
+		font-size:8pt;
+		color:black;
+		font-family:Century Gothic,Helvetica,Arial; 
+		}
+		
+
+
+p.ue_oben { 
+		font-size:13pt;
+		color:#CDB89E;
+		font-family:Century Gothic,Helvetica,Arial;
+		font-weight:bold; 
+		 }
+		 
+
+
+p.ueberschrift { 
+	font-size:11pt;
+		color:#9AC000;
+		font-family:Century Gothic,Helvetica,Arial;
+		font-weight:normal; 
+		}	
+		 
+
+
+p.textoben { 
+		font-size:10.3pt;
+		color:#CDB89E;
+		font-family:Century Gothic,Helvetica,Arial;
+		font-weight:normal; 
+		 }		
+		 
+
+
+p.navi { 
+		font-size:10pt;
+		color:white;
+		font-family:Century Gothic,Helvetica,Arial;
+		font-weight:bold; 
+		 }	
+		
+
+
+
+
+.navi { 
+		font-size:11pt;
+		color:#9AC000;
+		font-family:Century Gothic,Helvetica,Arial;
+		font-weight:bold; 
+		margin-left:20px;
+		 }
+		 
+
+
+.normal { 
+		font-size:10pt;
+		color:black;
+		font-family:Century Gothic,Helvetica,Arial;
+		font-weight:normal;  
+		 }
+		 
+
+
+.ueberschrift { 
+	font-size:11pt;
+		color:#9AC000;
+		font-family:Century Gothic,Helvetica,Arial;
+		font-weight:normal; 
+		}
+		
+
+
+.footer {
+		font-size:7pt;
+		color:#9AC000;
+		font-family:Century Gothic,Helvetica,Arial;
+		font-weight:normal;
+		} 
+		
+
+
+.upic { 
+		font-size:8pt;
+		color:black;
+		font-family:Century Gothic,Helvetica,Arial;
+		font-weight:normal;  
+		 }
+
+
+
+
+
+img { border-color:"#CDB89E"   }
+
+.team-overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.team-overlay .overlay-wrapper {
+    border-radius: 5%; 
+	max-width: 80%; 
+	padding: 10px; 
+	margin: 5% 10%; 
+	background: white; 
+	display: flex; 
+	flex-grow: 1; 
+	justify-content: space-between;
+}
+
+.team-overlay .overlay-text {
+    order: 1;
+	padding: 10px; 
+}
+.team-overlay .overlay-text span {
+    font-weight: bold;
+}
+
+.team-overlay .overlay-img {
+    order: 0;
+}
+
+
+
+/*
+<body>
+
+
+ <p class="normal">Normaler Textabsatz mit Schrift 10 Punkt schwarz</p>
+
+
+ <p class="gross">Textabsatz mit Schrift 12 Punkt schwarz</p>
+
+
+ <p class="klein">Textabsatz mit Schrift 8 Punkt schwarz</p>
+
+
+ <p class="rot">roter Textabsatz</p>
+
+
+ <address class="rot">roter Absatz für Adressen</address>
+
+
+ <blockquote class="blau">blaues Zitat</blockquote>
+
+
+</body>
+*/
+
+
+
+
+
+
+
+/*  Verschachtelte html-Tags */
+
+
+
+h1 { color:red; }
+h1 i { color:blue; font-weight:normal; }
+
+
+
+/*  Pseudoformate */
+
+a:link { color:#9AC000; font-weight:normal }
+a:visited { color:#9AC000; }
+a:active { color:#9AC000; font-style:italic }
+
+
+
+
